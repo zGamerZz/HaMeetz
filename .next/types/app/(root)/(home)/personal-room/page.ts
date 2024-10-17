@@ -1,4 +1,4 @@
-// File: C:\Users\User\dev\Meeting-App\zoom-clone\app\(root)\(home)\personal-room\page.tsx
+// File: C:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\personal-room\page.tsx
 import * as entry from '../../../../../../app/(root)/(home)/personal-room/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

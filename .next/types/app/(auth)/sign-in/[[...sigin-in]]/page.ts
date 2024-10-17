@@ -1,4 +1,4 @@
-// File: C:\Users\User\dev\Meeting-App\zoom-clone\app\(auth)\sign-in\[[...sigin-in]]\page.tsx
+// File: C:\Users\User\dev\Meeting-App\HaMeetz\app\(auth)\sign-in\[[...sigin-in]]\page.tsx
 import * as entry from '../../../../../../app/(auth)/sign-in/[[...sigin-in]]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
