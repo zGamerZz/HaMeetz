@@ -1,0 +1,327 @@
+Date : 2024-10-17 20:36:44
+Directory : c:\Users\User\dev\Meeting-App\HaMeetz
+Total : 212 files,  34343 codes, 11609 comments, 11426 blanks, all 57378 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JavaScript         |        115 |     19,690 |     11,343 |     10,512 |     41,545 |
+| JSON               |         20 |      6,911 |          0 |          2 |      6,913 |
+| CSS                |          2 |      4,979 |        169 |        393 |      5,541 |
+| TypeScript JSX     |         35 |      1,876 |          7 |        278 |      2,161 |
+| TypeScript         |         17 |        775 |         89 |        218 |      1,082 |
+| XML                |         19 |         69 |          1 |         19 |         89 |
+| JSON with Comments |          2 |         34 |          0 |          2 |         36 |
+| Properties         |          1 |          6 |          0 |          2 |          8 |
+| Markdown           |          1 |          3 |          0 |          0 |          3 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                       |        212 |     34,343 |     11,609 |     11,426 |     57,378 |
+| . (Files)                                                                                                               |         12 |      6,894 |          5 |         18 |      6,917 |
+| .next                                                                                                                   |        139 |     25,139 |     11,587 |     11,024 |     47,750 |
+| .next (Files)                                                                                                           |          4 |         66 |          0 |          0 |         66 |
+| .next\server                                                                                                            |         99 |      8,795 |      5,340 |      4,737 |     18,872 |
+| .next\server (Files)                                                                                                    |         13 |      2,057 |        581 |        428 |      3,066 |
+| .next\server\app                                                                                                        |         10 |      1,207 |        690 |        712 |      2,609 |
+| .next\server\app\(auth)                                                                                                 |          4 |        220 |        132 |        126 |        478 |
+| .next\server\app\(auth)\sign-in                                                                                         |          2 |        110 |         66 |         63 |        239 |
+| .next\server\app\(auth)\sign-in\[[...sigin-in]]                                                                         |          2 |        110 |         66 |         63 |        239 |
+| .next\server\app\(auth)\sign-up                                                                                         |          2 |        110 |         66 |         63 |        239 |
+| .next\server\app\(auth)\sign-up\[[...sign-up]]                                                                          |          2 |        110 |         66 |         63 |        239 |
+| .next\server\app\(root)                                                                                                 |          6 |        987 |        558 |        586 |      2,131 |
+| .next\server\app\(root)\(home)                                                                                          |          6 |        987 |        558 |        586 |      2,131 |
+| .next\server\app\(root)\(home) (Files)                                                                                  |          2 |        339 |        194 |        202 |        735 |
+| .next\server\app\(root)\(home)\personal-room                                                                            |          2 |        319 |        179 |        189 |        687 |
+| .next\server\app\(root)\(home)\recordings                                                                               |          2 |        329 |        185 |        195 |        709 |
+| .next\server\static                                                                                                     |          1 |          1 |          0 |          0 |          1 |
+| .next\server\static\webpack                                                                                             |          1 |          1 |          0 |          0 |          1 |
+| .next\server\vendor-chunks                                                                                              |         75 |      5,530 |      4,069 |      3,597 |     13,196 |
+| .next\static                                                                                                            |         27 |     15,861 |      6,167 |      6,143 |     28,171 |
+| .next\static\chunks                                                                                                     |         12 |     10,909 |      5,946 |      5,768 |     22,623 |
+| .next\static\chunks (Files)                                                                                             |          4 |      2,265 |        716 |        579 |      3,560 |
+| .next\static\chunks\app                                                                                                 |          8 |      8,644 |      5,230 |      5,189 |     19,063 |
+| .next\static\chunks\app (Files)                                                                                         |          1 |        592 |        356 |        357 |      1,305 |
+| .next\static\chunks\app\(auth)                                                                                          |          2 |        838 |        502 |        504 |      1,844 |
+| .next\static\chunks\app\(auth)\sign-in                                                                                  |          1 |        419 |        251 |        252 |        922 |
+| .next\static\chunks\app\(auth)\sign-in\[[...sigin-in]]                                                                  |          1 |        419 |        251 |        252 |        922 |
+| .next\static\chunks\app\(auth)\sign-up                                                                                  |          1 |        419 |        251 |        252 |        922 |
+| .next\static\chunks\app\(auth)\sign-up\[[...sign-up]]                                                                   |          1 |        419 |        251 |        252 |        922 |
+| .next\static\chunks\app\(root)                                                                                          |          5 |      7,214 |      4,372 |      4,328 |     15,914 |
+| .next\static\chunks\app\(root) (Files)                                                                                  |          1 |      1,375 |        839 |        812 |      3,026 |
+| .next\static\chunks\app\(root)\(home)                                                                                   |          4 |      5,839 |      3,533 |      3,516 |     12,888 |
+| .next\static\chunks\app\(root)\(home) (Files)                                                                           |          2 |      3,157 |      1,906 |      1,901 |      6,964 |
+| .next\static\chunks\app\(root)\(home)\personal-room                                                                     |          1 |      1,294 |        785 |        779 |      2,858 |
+| .next\static\chunks\app\(root)\(home)\recordings                                                                        |          1 |      1,388 |        842 |        836 |      3,066 |
+| .next\static\css                                                                                                        |          1 |      4,892 |        165 |        371 |      5,428 |
+| .next\static\css\app                                                                                                    |          1 |      4,892 |        165 |        371 |      5,428 |
+| .next\static\development                                                                                                |          2 |          2 |          0 |          0 |          2 |
+| .next\static\webpack                                                                                                    |         12 |         58 |         56 |          4 |        118 |
+| .next\static\webpack (Files)                                                                                            |         11 |         51 |         45 |          0 |         96 |
+| .next\static\webpack\app                                                                                                |          1 |          7 |         11 |          4 |         22 |
+| .next\types                                                                                                             |          9 |        417 |         80 |        144 |        641 |
+| .next\types (Files)                                                                                                     |          1 |          1 |          0 |          0 |          1 |
+| .next\types\app                                                                                                         |          8 |        416 |         80 |        144 |        640 |
+| .next\types\app (Files)                                                                                                 |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(auth)                                                                                                  |          2 |        104 |         20 |         36 |        160 |
+| .next\types\app\(auth)\sign-in                                                                                          |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(auth)\sign-in\[[...sigin-in]]                                                                          |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(auth)\sign-up                                                                                          |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(auth)\sign-up\[[...sign-up]]                                                                           |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(root)                                                                                                  |          5 |        260 |         50 |         90 |        400 |
+| .next\types\app\(root) (Files)                                                                                          |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(root)\(home)                                                                                           |          4 |        208 |         40 |         72 |        320 |
+| .next\types\app\(root)\(home) (Files)                                                                                   |          2 |        104 |         20 |         36 |        160 |
+| .next\types\app\(root)\(home)\personal-room                                                                             |          1 |         52 |         10 |         18 |         80 |
+| .next\types\app\(root)\(home)\recordings                                                                                |          1 |         52 |         10 |         18 |         80 |
+| actions                                                                                                                 |          1 |         16 |          0 |          9 |         25 |
+| app                                                                                                                     |         12 |        343 |          5 |         85 |        433 |
+| app (Files)                                                                                                             |          2 |        131 |          4 |         27 |        162 |
+| app\(auth)                                                                                                              |          2 |         16 |          0 |          4 |         20 |
+| app\(auth)\sign-in                                                                                                      |          1 |          8 |          0 |          2 |         10 |
+| app\(auth)\sign-in\[[...sigin-in]]                                                                                      |          1 |          8 |          0 |          2 |         10 |
+| app\(auth)\sign-up                                                                                                      |          1 |          8 |          0 |          2 |         10 |
+| app\(auth)\sign-up\[[...sign-up]]                                                                                       |          1 |          8 |          0 |          2 |         10 |
+| app\(root)                                                                                                              |          8 |        196 |          1 |         54 |        251 |
+| app\(root) (Files)                                                                                                      |          1 |         10 |          0 |          4 |         14 |
+| app\(root)\(home)                                                                                                       |          6 |        148 |          0 |         39 |        187 |
+| app\(root)\(home) (Files)                                                                                               |          2 |         45 |          0 |         13 |         58 |
+| app\(root)\(home)\personal-room                                                                                         |          1 |         73 |          0 |         14 |         87 |
+| app\(root)\(home)\previous                                                                                              |          1 |         10 |          0 |          4 |         14 |
+| app\(root)\(home)\recordings                                                                                            |          1 |         10 |          0 |          4 |         14 |
+| app\(root)\(home)\upcoming                                                                                              |          1 |         10 |          0 |          4 |         14 |
+| app\(root)\meeting                                                                                                      |          1 |         38 |          1 |         11 |         50 |
+| app\(root)\meeting\[id]                                                                                                 |          1 |         38 |          1 |         11 |         50 |
+| components                                                                                                              |         24 |      1,752 |          9 |        236 |      1,997 |
+| components (Files)                                                                                                      |         13 |        831 |          6 |        105 |        942 |
+| components\ui                                                                                                           |         11 |        921 |          3 |        131 |      1,055 |
+| constants                                                                                                               |          1 |         34 |          0 |          3 |         37 |
+| hooks                                                                                                                   |          2 |         63 |          2 |         19 |         84 |
+| lib                                                                                                                     |          1 |          5 |          0 |          2 |          7 |
+| providers                                                                                                               |          1 |         28 |          0 |         11 |         39 |
+| public                                                                                                                  |         19 |         69 |          1 |         19 |         89 |
+| public\icons                                                                                                            |         19 |         69 |          1 |         19 |         89 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\User\dev\Meeting-App\HaMeetz\.env                                                                              | Properties         |          6 |          0 |          2 |          8 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.eslintrc.json                                                                    | JSON with Comments |          8 |          0 |          1 |          9 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\app-build-manifest.json                                                     | JSON               |         45 |          0 |          0 |         45 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\build-manifest.json                                                         | JSON               |         19 |          0 |          0 |         19 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\package.json                                                                | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\react-loadable-manifest.json                                                | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app-paths-manifest.json                                              | JSON               |          7 |          0 |          0 |          7 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(auth)\sign-in\[[...sigin-in]]\page.js                           | JavaScript         |        109 |         66 |         63 |        238 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(auth)\sign-in\[[...sigin-in]]\page_client-reference-manifest.js | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(auth)\sign-up\[[...sign-up]]\page.js                            | JavaScript         |        109 |         66 |         63 |        238 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(auth)\sign-up\[[...sign-up]]\page_client-reference-manifest.js  | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(root)\(home)\page.js                                            | JavaScript         |        338 |        194 |        202 |        734 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(root)\(home)\page_client-reference-manifest.js                  | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(root)\(home)\personal-room\page.js                              | JavaScript         |        318 |        179 |        189 |        686 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(root)\(home)\personal-room\page_client-reference-manifest.js    | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(root)\(home)\recordings\page.js                                 | JavaScript         |        328 |        185 |        195 |        708 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\app\(root)\(home)\recordings\page_client-reference-manifest.js       | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\edge-runtime-webpack.js                                              | JavaScript         |      1,061 |        106 |          0 |      1,167 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\interception-route-rewrite-manifest.js                               | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\middleware-build-manifest.js                                         | JavaScript         |         20 |          0 |          1 |         21 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\middleware-manifest.json                                             | JSON               |         29 |          0 |          0 |         29 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\middleware-react-loadable-manifest.js                                | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\middleware.js                                                        | JavaScript         |        703 |        435 |        427 |      1,565 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\next-font-manifest.js                                                | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\next-font-manifest.json                                              | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\pages-manifest.json                                                  | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\server-reference-manifest.js                                         | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\server-reference-manifest.json                                       | JSON               |         46 |          0 |          0 |         46 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\static\webpack\633457081244afec._.hot-update.json                    | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@babel.js                                              | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@clerk.js                                              | JavaScript         |        818 |        536 |        587 |      1,941 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@floating-ui.js                                        | JavaScript         |         34 |         29 |         22 |         85 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@kurkle.js                                             | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@protobuf-ts.js                                        | JavaScript         |        142 |        110 |        103 |        355 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@radix-ui.js                                           | JavaScript         |         82 |         65 |         58 |        205 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@stream-io.js                                          | JavaScript         |         26 |         23 |         16 |         65 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\@swc.js                                                | JavaScript         |         30 |         26 |         19 |         75 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\aria-hidden.js                                         | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\asynckit.js                                            | JavaScript         |         45 |         38 |         31 |        114 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\axios.js                                               | JavaScript         |        288 |        179 |        172 |        639 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\base64-js.js                                           | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\buffer-equal-constant-time.js                          | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\chart.js.js                                            | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\class-variance-authority.js                            | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\classnames.js                                          | JavaScript         |          9 |         11 |          4 |         24 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\clsx.js                                                | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\combined-stream.js                                     | JavaScript         |          9 |         11 |          4 |         24 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\cookie.js                                              | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\crypto-js.js                                           | JavaScript         |         85 |         68 |         61 |        214 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\date-fns.js                                            | JavaScript         |        518 |        392 |        385 |      1,295 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\debug.js                                               | JavaScript         |         21 |         20 |         13 |         54 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\delayed-stream.js                                      | JavaScript         |          9 |         11 |          4 |         24 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\dot-case.js                                            | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\ecdsa-sig-formatter.js                                 | JavaScript         |         22 |         20 |         13 |         55 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\follow-redirects.js                                    | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\get-nonce.js                                           | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\has-flag.js                                            | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\i18next.js                                             | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\isomorphic-ws.js                                       | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\jsonwebtoken.js                                        | JavaScript         |        101 |         80 |         73 |        254 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\jwa.js                                                 | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\jws.js                                                 | JavaScript         |         45 |         38 |         31 |        114 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.includes.js                                     | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.isboolean.js                                    | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.isinteger.js                                    | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.isnumber.js                                     | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.isplainobject.js                                | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.isstring.js                                     | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lodash.once.js                                         | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lower-case.js                                          | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\lucide-react.js                                        | JavaScript         |         22 |         20 |         13 |         55 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\map-obj.js                                             | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\mime-db.js                                             | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\mime-types.js                                          | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\ms.js                                                  | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\next.js                                                | JavaScript         |      1,720 |      1,059 |      1,047 |      3,826 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\no-case.js                                             | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\proxy-from-env.js                                      | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\react-chartjs-2.js                                     | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\react-datepicker.js                                    | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\react-onclickoutside.js                                | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\react-remove-scroll-bar.js                             | JavaScript         |         22 |         20 |         13 |         55 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\react-remove-scroll.js                                 | JavaScript         |         34 |         29 |         22 |         85 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\react-style-singleton.js                               | JavaScript         |         22 |         20 |         13 |         55 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\rxjs.js                                                | JavaScript         |        302 |        230 |        223 |        755 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\safe-buffer.js                                         | JavaScript         |         13 |         14 |          7 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\sdp-transform.js                                       | JavaScript         |         21 |         20 |         13 |         54 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\sdp.js                                                 | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\semver.js                                              | JavaScript         |        367 |        278 |        271 |        916 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\snake-case.js                                          | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\snakecase-keys.js                                      | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\supports-color.js                                      | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\swr.js                                                 | JavaScript         |         18 |         17 |         10 |         45 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\tabbable.js                                            | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\tailwind-merge.js                                      | JavaScript         |         10 |         11 |          4 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\tslib.js                                               | JavaScript         |         18 |         17 |         10 |         45 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\ua-parser-js.js                                        | JavaScript         |          9 |         11 |          4 |         24 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\use-callback-ref.js                                    | JavaScript         |         18 |         17 |         10 |         45 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\use-sidecar.js                                         | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\use-sync-external-store.js                             | JavaScript         |         14 |         14 |          7 |         35 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\uuid.js                                                | JavaScript         |         30 |         26 |         19 |         75 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\webrtc-adapter.js                                      | JavaScript         |         50 |         41 |         34 |        125 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\ws.js                                                  | JavaScript         |         62 |         50 |         43 |        155 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\vendor-chunks\yallist.js                                             | JavaScript         |         22 |         20 |         13 |         55 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\server\webpack-runtime.js                                                   | JavaScript         |        185 |         40 |          0 |        225 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app-pages-internals.js                                        | JavaScript         |         63 |         41 |         34 |        138 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(auth)\sign-in\[[...sigin-in]]\page.js                    | JavaScript         |        419 |        251 |        252 |        922 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(auth)\sign-up\[[...sign-up]]\page.js                     | JavaScript         |        419 |        251 |        252 |        922 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(root)\(home)\layout.js                                   | JavaScript         |        858 |        515 |        516 |      1,889 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(root)\(home)\page.js                                     | JavaScript         |      2,299 |      1,391 |      1,385 |      5,075 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(root)\(home)\personal-room\page.js                       | JavaScript         |      1,294 |        785 |        779 |      2,858 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(root)\(home)\recordings\page.js                          | JavaScript         |      1,388 |        842 |        836 |      3,066 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\(root)\layout.js                                          | JavaScript         |      1,375 |        839 |        812 |      3,026 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\app\layout.js                                                 | JavaScript         |        592 |        356 |        357 |      1,305 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\main-app.js                                                   | JavaScript         |        905 |        551 |        544 |      2,000 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\polyfills.js                                                  | JavaScript         |          1 |          0 |          1 |          2 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\chunks\webpack.js                                                    | JavaScript         |      1,296 |        124 |          0 |      1,420 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\css\app\layout.css                                                   | CSS                |      4,892 |        165 |        371 |      5,428 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\development\_buildManifest.js                                        | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\development\_ssgManifest.js                                          | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\01edabd00b34fe55.webpack.hot-update.json                     | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\2919bf2b34e1148e.webpack.hot-update.json                     | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\633457081244afec._.hot-update.json                           | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\8246055a73ce58b6.webpack.hot-update.json                     | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\92cd5d66121cabed.webpack.hot-update.json                     | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\94026f913171189a.webpack.hot-update.json                     | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\app\layout.2919bf2b34e1148e.hot-update.js                    | JavaScript         |          7 |         11 |          4 |         22 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\webpack.01edabd00b34fe55.hot-update.js                       | JavaScript         |          9 |          9 |          0 |         18 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\webpack.2919bf2b34e1148e.hot-update.js                       | JavaScript         |          9 |          9 |          0 |         18 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\webpack.8246055a73ce58b6.hot-update.js                       | JavaScript         |          9 |          9 |          0 |         18 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\webpack.92cd5d66121cabed.hot-update.js                       | JavaScript         |          9 |          9 |          0 |         18 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\static\webpack\webpack.94026f913171189a.hot-update.js                       | JavaScript         |          9 |          9 |          0 |         18 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(auth)\sign-in\[[...sigin-in]]\page.ts                            | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(auth)\sign-up\[[...sign-up]]\page.ts                             | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(root)\(home)\layout.ts                                           | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(root)\(home)\page.ts                                             | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(root)\(home)\personal-room\page.ts                               | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(root)\(home)\recordings\page.ts                                  | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\(root)\layout.ts                                                  | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\app\layout.ts                                                         | TypeScript         |         52 |         10 |         18 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\.next\types\package.json                                                          | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\README.md                                                                         | Markdown           |          3 |          0 |          0 |          3 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\actions\stream.actions.ts                                                         | TypeScript         |         16 |          0 |          9 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(auth)\sign-in\[[...sigin-in]]\page.tsx                                       | TypeScript JSX     |          8 |          0 |          2 |         10 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(auth)\sign-up\[[...sign-up]]\page.tsx                                        | TypeScript JSX     |          8 |          0 |          2 |         10 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\layout.tsx                                                      | TypeScript JSX     |         22 |          0 |          7 |         29 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\page.tsx                                                        | TypeScript JSX     |         23 |          0 |          6 |         29 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\personal-room\page.tsx                                          | TypeScript JSX     |         73 |          0 |         14 |         87 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\previous\page.tsx                                               | TypeScript JSX     |         10 |          0 |          4 |         14 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\recordings\page.tsx                                             | TypeScript JSX     |         10 |          0 |          4 |         14 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\(home)\upcoming\page.tsx                                               | TypeScript JSX     |         10 |          0 |          4 |         14 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\layout.tsx                                                             | TypeScript JSX     |         10 |          0 |          4 |         14 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\(root)\meeting\[id]\page.tsx                                                  | TypeScript JSX     |         38 |          1 |         11 |         50 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\globals.css                                                                   | CSS                |         87 |          4 |         22 |        113 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\app\layout.tsx                                                                    | TypeScript JSX     |         44 |          0 |          5 |         49 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components.json                                                                   | JSON               |         17 |          0 |          0 |         17 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\Alert.tsx                                                              | TypeScript JSX     |         32 |          0 |          6 |         38 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\CallList.tsx                                                           | TypeScript JSX     |         97 |          0 |         14 |        111 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\EndCallButton.tsx                                                      | TypeScript JSX     |         29 |          1 |         11 |         41 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\HomeCard.tsx                                                           | TypeScript JSX     |         30 |          0 |          7 |         37 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\Loader.tsx                                                             | TypeScript JSX     |         14 |          0 |          3 |         17 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\MeetingCard.tsx                                                        | TypeScript JSX     |         87 |          0 |          7 |         94 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\MeetingModal.tsx                                                       | TypeScript JSX     |         68 |          0 |          4 |         72 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\MeetingRoom.tsx                                                        | TypeScript JSX     |         92 |          2 |         10 |        104 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\MeetingSetup.tsx                                                       | TypeScript JSX     |         78 |          2 |         12 |         92 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\MeetingTypeList.tsx                                                    | TypeScript JSX     |        166 |          1 |         13 |        180 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\MobileNav.tsx                                                          | TypeScript JSX     |         68 |          0 |          7 |         75 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\Navbar.tsx                                                             | TypeScript JSX     |         29 |          0 |          5 |         34 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\Sidebar.tsx                                                            | TypeScript JSX     |         41 |          0 |          6 |         47 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\button.tsx                                                          | TypeScript JSX     |         53 |          0 |          6 |         59 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\card.tsx                                                            | TypeScript JSX     |         71 |          0 |          9 |         80 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\dialog.tsx                                                          | TypeScript JSX     |        109 |          0 |         14 |        123 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\dropdown-menu.tsx                                                   | TypeScript JSX     |        182 |          0 |         19 |        201 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\input.tsx                                                           | TypeScript JSX     |         21 |          0 |          5 |         26 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\popover.tsx                                                         | TypeScript JSX     |         25 |          0 |          7 |         32 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\sheet.tsx                                                           | TypeScript JSX     |        128 |          0 |         16 |        144 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\textarea.tsx                                                        | TypeScript JSX     |         20 |          0 |          5 |         25 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\toast.tsx                                                           | TypeScript JSX     |        116 |          0 |         14 |        130 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\toaster.tsx                                                         | TypeScript JSX     |         36 |          0 |          4 |         40 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\components\ui\use-toast.ts                                                        | TypeScript         |        160 |          3 |         32 |        195 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\constants\index.ts                                                                | TypeScript         |         34 |          0 |          3 |         37 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\hooks\useGetCallById.ts                                                           | TypeScript         |         22 |          1 |          9 |         32 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\hooks\useGetCalls.ts                                                              | TypeScript         |         41 |          1 |         10 |         52 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\lib\utils.ts                                                                      | TypeScript         |          5 |          0 |          2 |          7 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\middleware.ts                                                                     | TypeScript         |         15 |          0 |          4 |         19 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\next-env.d.ts                                                                     | TypeScript         |          0 |          4 |          2 |          6 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\next.config.mjs                                                                   | JavaScript         |         11 |          1 |          2 |         14 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\package-lock.json                                                                 | JSON               |      6,687 |          0 |          1 |      6,688 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\package.json                                                                      | JSON               |         49 |          0 |          1 |         50 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\postcss.config.js                                                                 | JavaScript         |          6 |          0 |          1 |          7 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\providers\StreamClientProvider.tsx                                                | TypeScript JSX     |         28 |          0 |         11 |         39 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\HaMeetz-logo.svg                                                     | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\Home.svg                                                             | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\Video.svg                                                            | XML                |          4 |          0 |          1 |          5 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\add-meeting.svg                                                      | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\add-personal.svg                                                     | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\call-ended.svg                                                       | XML                |          6 |          1 |          5 |         12 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\checked.svg                                                          | XML                |          9 |          0 |          1 |         10 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\copy.svg                                                             | XML                |          4 |          0 |          1 |          5 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\hamburger.svg                                                        | XML                |          5 |          0 |          0 |          5 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\join-meeting.svg                                                     | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\loading-circle.svg                                                   | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\logo.svg                                                             | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\play.svg                                                             | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\previous.svg                                                         | XML                |          5 |          0 |          1 |          6 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\recordings.svg                                                       | XML                |          4 |          0 |          1 |          5 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\schedule.svg                                                         | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\share.svg                                                            | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\three-dots.svg                                                       | XML                |          3 |          0 |          1 |          4 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\public\icons\upcoming.svg                                                         | XML                |          5 |          0 |          1 |          6 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\tailwind.config.ts                                                                | TypeScript         |         66 |          0 |          3 |         69 |
+| c:\Users\User\dev\Meeting-App\HaMeetz\tsconfig.json                                                                     | JSON with Comments |         26 |          0 |          1 |         27 |
+| Total                                                                                                                   |                    |     34,343 |     11,609 |     11,426 |     57,378 |
++-------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
