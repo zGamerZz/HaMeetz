@@ -29,9 +29,9 @@ const MobileNav = () => {
               src="/icons/logo.svg"
               width={32}
               height={32}
-              alt="HaMeetz2222 logo"
+              alt="HaMeetz logo"
             />
-            <p className="text-[26px] font-extrabold text-white">HaMeetz2222</p>
+            <p className="text-[26px] font-extrabold text-white">HaMeetz</p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>

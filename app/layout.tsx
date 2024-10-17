@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HaMeetz2222",
+  title: "HaMeetz",
   description: "Video calling App",
   icons: {
     icon: "/icons/logo.svg",
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/HaMeetz2222-logo.svg",
+            logoImageUrl: "/icons/HaMeetz-logo.svg",
           },
           variables: {
             colorText: "#fff",
