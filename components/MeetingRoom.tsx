@@ -43,11 +43,12 @@ const MeetingRoom = () => {
       case 'grid':
         return <PaginatedGridLayout />;
       case 'speaker-right':
-        return <SpeakerLayout participantsBarPosition="left" />;
+        return <SpeakerLayout participantsBarPosition="bottom" />;
       default:
-        return <SpeakerLayout participantsBarPosition="right" />;
+        return <SpeakerLayout participantsBarPosition="top" />;
     }
   };
+
 
   return (
     <section className="relative h-screen w-full overflow-hidden pt-4 text-white">
